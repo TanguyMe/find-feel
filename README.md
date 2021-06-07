@@ -1,5 +1,19 @@
 # TP--Find_the_Feel
 
+Structure du repository : 
+
+data/ : 
+    d01_raw/ : contient les données textes brutes issues de 2 jeux de données
+    03_cleaned_data/ : contient les données textes adaptées à différentes utilisations (datall : jeux fusionnés, CleanBin : jeux avec 2 émotions (positive et négativ, Clean :                               jeux avec 6 émotions
+
+notebook/ :
+    Cleaning : Nettoyage des données pour exporter les jeux de données nettoyés
+    Machine_learning : Mise en place et entrainement des modèles (regression logistique, xgboost, random forest, svm, neural network), export des résultats via joblib
+
+source/ :
+    app.py : Application streamlit permettant l'analyse des resultats des modèles et des jeux de données
+
+
 Contexte du projet
 
 ​
